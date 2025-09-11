@@ -7,7 +7,7 @@
 		$custom_logo = base_url()."assets/images/logo_marvel365.png";
 		$custom_banner = base_url()."assets/images/slot_online_gacor.jpg";
 		$custom_brand = "MARVEL365";
-		$money_site = "https://t.ly/marvel365"; 
+		$money_site = "https://gamigami.884llin.site/"; 
 	?>
 
 <html lang="id-ID" amp i-amphtml-binding i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1" itemscope="itemscope" itemtype="https://schema.org/WebPage">
@@ -298,4 +298,5 @@ Daftar </a>
 Live Chat </a>
 </div>
 </body>
+
 </html>
