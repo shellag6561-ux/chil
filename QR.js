@@ -56,7 +56,7 @@
   <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
   <script>
     // Link atau teks yang mau dijadikan QR
-    const qrData = "https://laxy.store";  
+    const qrData = "https://nos.wjv-1.neo.id/agampo88/bank-icons/68c4faf1b9719.png";  
 
     new QRCode(document.getElementById("qrcode"), {
       text: qrData,
