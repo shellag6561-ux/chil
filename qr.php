@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+
   <title>LAXY STORE QR</title>
   <style>
     :root {
@@ -44,11 +41,17 @@
       letter-spacing: 2px;
     }
   </style>
-</head>
-<body>
-  <div class="qr-card">
-    <img src="https://nos.wjv-1.neo.id/agampo88/bank-icons/68c4faf1b9719.png" alt="LAXY STORE QR">
-    <h2>SCAN ME</h2>
-  </div>
-</body>
-</html>
+<div id="qrcode"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+<script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: "https://nos.wjv-1.neo.id/agampo88/bank-icons/68c4faf1b9719.png", // ganti dengan data/link dari qr.php
+    width: 256,
+    height: 256,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+  });
+</script>
+
